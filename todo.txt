@@ -1,0 +1,7 @@
+- about me section?
+- replace pictures
+- add checkmarks in for light mode
+- animation opprtunity with css
+- reformat to be more similar to note?
+- add function to 'request resume' button such as a pop-up
+- deployment
