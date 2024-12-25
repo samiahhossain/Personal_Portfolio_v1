@@ -20,6 +20,10 @@
   a:hover {
     transform: scale(1.05);
   }
+
+  p {
+    max-width: 250px;
+  }
 }
 
 .projectsContainer {

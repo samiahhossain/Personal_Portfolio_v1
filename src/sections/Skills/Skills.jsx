@@ -24,6 +24,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={ellipsisLight} skill="C" />
         <SkillList src={ellipsisLight} skill="SQL" />
+        <SkillList src={ellipsisLight} skill="PHP" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -40,6 +41,11 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="JetBrains" />
         <SkillList src={checkMarkIcon} skill="VSCode" />
+        <SkillList src={ellipsisLight} skill="Kali Linux" />
+        <SkillList src={ellipsisLight} skill="Metasploit" />
+        <SkillList src={ellipsisLight} skill="Wireshark" />
+        <SkillList src={ellipsisLight} skill="Splunk" />
+        <SkillList src={ellipsisLight} skill="Palo Alto" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -49,14 +55,6 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Transformers" />
         <SkillList src={checkMarkIcon} skill="Torch" />
         <SkillList src={checkMarkIcon} skill="Datasets" />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={ellipsisLight} skill="Kali Linux" />
-        <SkillList src={ellipsisLight} skill="Metasploit" />
-        <SkillList src={ellipsisLight} skill="Wireshark" />
-        <SkillList src={ellipsisLight} skill="Splunk" />
-        <SkillList src={ellipsisLight} skill="Palo Alto" />
       </div>
     </section>
   );

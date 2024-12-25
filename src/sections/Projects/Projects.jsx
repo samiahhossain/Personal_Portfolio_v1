@@ -14,25 +14,25 @@ function Projects() {
           src={invMonitor}
           link="https://github.com/samiahhossain/InvMonitor"
           h3="Inventory Monitor"
-          p="Simulating Usage"
+          p="Simulating the usage of materials across different teams, and ensuring sufficient stock."
         />
         <ProjectCard
           src={TLDR}
           link="https://github.com/samiahhossain/TLDR_AI"
           h3="TL;DR AI"
-          p="Intelligent Summarizer"
+          p="Intelligent summarizer that extracts the main point from large pieces of text."
         />
         <ProjectCard
           src={scribbleSpace}
           link="https://github.com/samiahhossain/ScribbleSpace"
           h3="ScribbleSpace"
-          p="Notes Application"
+          p="Dynamic notes application that allows for notes to be saved, edited, searched for, and deleted."
         />
         <ProjectCard
           src={ziShi}
           link="https://github.com/samiahhossain/ZiShi-s_Wardrobe"
           h3="ZiShi's Wardrobe"
-          p="Clothing Catalogue"
+          p="Clothing store website showcasing the catalogue in a clean and organized fashion."
         />
       </div>
     </section>
