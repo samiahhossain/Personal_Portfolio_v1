@@ -36,7 +36,7 @@ function Hero() {
           <br />
           Hossain
         </h1>
-        <h2>Tech Lover.</h2>
+        {/* <h2>Tech Lover.</h2> */}
         <span>
           <a href="https://github.com/samiahhossain" target="_blank">
             <img src={githubIcon} alt="github icon" />

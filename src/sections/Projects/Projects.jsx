@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import TLDR from '../../assets/viberr.png';
-import scribbleSpace from '../../assets/fresh-burger.png'
-import ziShi from '../../assets/hipsster.png'
-import invMonitor from '../../assets/fitlift.png'
+import TLDR from '../../assets/paper.jpeg';
+import scribbleSpace from '../../assets/notes.webp'
+import ziShi from '../../assets/zishi.webp'
+import invMonitor from '../../assets/stock.jpeg'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -14,7 +14,7 @@ function Projects() {
           src={invMonitor}
           link="https://github.com/samiahhossain/InvMonitor"
           h3="Inventory Monitor"
-          p="Simulating the usage of materials across different teams, and ensuring sufficient stock."
+          p="Simulating the usage of materials across different teams that have different permissions."
         />
         <ProjectCard
           src={TLDR}

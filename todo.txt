@@ -1,7 +1,8 @@
 - about me section?
-- stats section? (# certs/awards/projects with pop up of details)
+- numbers pop up or hidden details?
 - replace pictures
 - fix ellipsis and add dark version
+- contact pill
 - animation opprtunity with css (typing, sliding, fading)
 - reformat to be more similar to note?
 - add function to 'request resume' button such as a pop-up

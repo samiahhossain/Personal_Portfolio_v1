@@ -45,7 +45,7 @@ function Skills() {
         <SkillList src={ellipsisLight} skill="Metasploit" />
         <SkillList src={ellipsisLight} skill="Wireshark" />
         <SkillList src={ellipsisLight} skill="Splunk" />
-        <SkillList src={ellipsisLight} skill="Palo Alto" />
+        {/* <SkillList src={ellipsisLight} skill="Palo Alto" /> */}
       </div>
       <hr />
       <div className={styles.skillList}>
