@@ -1,7 +1,7 @@
 - about me section?
+- stats section? (# certs/awards/projects with pop up of details)
 - replace pictures
-- add checkmarks in for light mode
-- animation opprtunity with css
+- animation opprtunity with css (typing, sliding, fading)
 - reformat to be more similar to note?
 - add function to 'request resume' button such as a pop-up
 - deployment

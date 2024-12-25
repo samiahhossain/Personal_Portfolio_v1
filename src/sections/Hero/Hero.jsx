@@ -36,7 +36,7 @@ function Hero() {
           <br />
           Hossain
         </h1>
-        <h2>Developer.</h2>
+        <h2>Tech Lover.</h2>
         <span>
           <a href="https://github.com/samiahhossain" target="_blank">
             <img src={githubIcon} alt="github icon" />
@@ -46,7 +46,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Developing and analyzing all things tech.
+          Developing and analyzing all things computer science.
         </p>
         {/* EITHER POPUP OR EMAIL TEMPLATE */}
         <a href="">
