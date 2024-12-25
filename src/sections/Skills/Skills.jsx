@@ -1,7 +1,7 @@
 import styles from './SkillsStyles.module.css';
 import checkMarkDark from '../../assets/checkmark-dark.svg';
-import checkMarkLight from '../../assets/checkmark-light.svg'
-import ellipsisLight from '../../assets/ellipsis.png'
+import checkMarkLight from '../../assets/checkmark-light.svg';
+import ellipsisLight from '../../assets/ellipsis.png';
 import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -11,7 +11,10 @@ function Skills() {
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
-      <p>Checkmark indicates experience, ellipsis/none indicates learning that is ongoing or planned for the near future.</p>
+      <p className={styles.label}>
+        Checkmark indicates experience, ellipsis/none indicates learning that is
+        ongoing or planned for the near future.
+      </p>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML" />
