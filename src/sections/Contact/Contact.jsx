@@ -12,9 +12,13 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-      <img src={linkedinIcon} alt="email icon" />
+      <a href="https://linkedin.com/in/samiahh">
+        <img src={linkedinIcon} alt="linkedin icon" />
+      </a>
       <p>Connect and/or chat with me on LinkedIn!</p>
-      <img src={emailIcon} alt="email icon" className={styles.email} />
+      <a href="mailto:samiah.hossain@dal.ca">
+        <img src={emailIcon} alt="email icon" className={styles.email} />
+      </a>
       <p>Email me at samiah.hossain@dal.ca.</p>
     </section>
   );

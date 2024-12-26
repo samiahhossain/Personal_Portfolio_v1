@@ -1,8 +1,6 @@
 - numbers pop up or hidden details?
-- replace hero pic with transparent background
-- fix ellipsis and add dark version
-- contact pill
+- fix/add dark version: hero pic, ellipsis, email icon
 - animation opprtunity with css (typing, sliding, fading)
 - reformat to be more similar to note?
-- add function to 'request resume' button such as a pop-up
+- colors? (background or text or both?)
 - deployment
