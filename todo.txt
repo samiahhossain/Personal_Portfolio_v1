@@ -1,6 +1,5 @@
-- about me section?
 - numbers pop up or hidden details?
-- replace pictures
+- replace hero pic with transparent background
 - fix ellipsis and add dark version
 - contact pill
 - animation opprtunity with css (typing, sliding, fading)

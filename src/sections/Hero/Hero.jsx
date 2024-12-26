@@ -49,7 +49,7 @@ function Hero() {
           Developing and analyzing all things tech.
         </p>
         {/* EITHER POPUP OR EMAIL TEMPLATE */}
-        <a href="">
+        <a href="mailto:samiah.hossain@dal.ca">
           <button className="hover">Request Resume</button>
         </a>
       </div>

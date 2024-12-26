@@ -6,6 +6,7 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  /* background-image: var(--hero-background); */
 
   .hero {
     max-width: 200px;
@@ -81,7 +82,7 @@
 
 @media (width >= 800px) {
   .container {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
 

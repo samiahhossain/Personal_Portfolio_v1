@@ -1,10 +1,11 @@
 :root {
   --background-color: #fff;
-  --button-color: #2f695b;
+  --button-color: black;
   --button-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
   --footer-text-color: #888;
+  /* --hero-background: linear-gradient(to right, #9ebdf0, #80a897); */
 }
 
 [data-theme='dark'] {
@@ -14,6 +15,7 @@
   --project-card-bg: #fff;
   --text-color: #fff;
   --footer-text-color: #bbb;
+  /* --hero-background: linear-gradient(to right, #0b3454, #284239); */
 }
 
 body {
@@ -84,7 +86,8 @@ p {
   h1 {
     font-size: 40px;
   }
-  h2, h3 {
+  h2,
+  h3 {
     font-size: 24px;
   }
   p {
@@ -102,7 +105,7 @@ p {
     h1 {
       font-size: 48px;
     }
-  
+
     .sectionTitle {
       margin-bottom: 75px;
     }
