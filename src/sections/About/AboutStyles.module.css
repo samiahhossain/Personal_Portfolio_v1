@@ -4,6 +4,7 @@
   .description {
     display: flex;
     justify-self: center;
+    align-self: center;
     width: 85%;
     max-width: 1700px;
     text-align: justify;
