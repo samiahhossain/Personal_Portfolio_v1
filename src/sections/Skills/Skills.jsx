@@ -1,13 +1,15 @@
 import styles from './SkillsStyles.module.css';
 import checkMarkDark from '../../assets/checkmark-dark.svg';
 import checkMarkLight from '../../assets/checkmark-light.svg';
-import ellipsisLight from '../../assets/ellipsis.png';
+import ellipsisLight from '../../assets/ellipsis-light.png';
+import ellipsisDark from '../../assets/ellipsis-dark.png';
 import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
   const { theme } = useTheme();
   const checkMarkIcon = theme === 'light' ? checkMarkLight : checkMarkDark;
+  const ellipsisIcon = theme === 'light' ? ellipsisLight : ellipsisDark;
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
@@ -22,9 +24,9 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={ellipsisLight} skill="C" />
-        <SkillList src={ellipsisLight} skill="SQL" />
-        <SkillList src={ellipsisLight} skill="PHP" />
+        <SkillList src={ellipsisIcon} skill="C" />
+        <SkillList src={ellipsisIcon} skill="SQL" />
+        <SkillList src={ellipsisIcon} skill="PHP" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -41,10 +43,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="JetBrains" />
         <SkillList src={checkMarkIcon} skill="VSCode" />
-        <SkillList src={ellipsisLight} skill="Kali Linux" />
-        <SkillList src={ellipsisLight} skill="Metasploit" />
-        <SkillList src={ellipsisLight} skill="Wireshark" />
-        <SkillList src={ellipsisLight} skill="Splunk" />
+        <SkillList src={ellipsisIcon} skill="Kali Linux" />
+        <SkillList src={ellipsisIcon} skill="Metasploit" />
+        <SkillList src={ellipsisIcon} skill="Wireshark" />
+        <SkillList src={ellipsisIcon} skill="Splunk" />
         {/* <SkillList src={ellipsisLight} skill="Palo Alto" /> */}
       </div>
       <hr />
