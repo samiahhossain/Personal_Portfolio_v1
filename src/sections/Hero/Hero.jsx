@@ -31,6 +31,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
+        <h2>Hi there, my name is</h2>
         <h1>
           Samiah
           <br />

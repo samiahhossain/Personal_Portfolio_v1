@@ -1,24 +1,30 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
 
-    p {
-        margin-bottom: 30px;
-    }
+  p {
+    margin-bottom: 30px;
+  }
 
-    img {
-        height: 32px;
-        width: 32px;
-        align-self: center;
-    }
+  img {
+    height: 32px;
+    width: 32px;
+    align-self: center;
+  }
 
-    a:hover {
-        cursor: pointer;
-        transform: scale(1.10);
-    }
+  a {
+    display: inline-block;
+  }
 
-    .email {
-        background-color: var(--project-card-bg);
-    }
+  a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .email {
+    background-color: var(--project-card-bg);
+  }
 }
