@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+
+    .description {
+        max-width: 85%;
+        justify-self: center;
+        text-align: justify;
+        line-height: 1.5;
+      }
+}

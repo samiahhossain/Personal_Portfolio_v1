@@ -46,7 +46,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Developing and analyzing all things computer science.
+          Developing and analyzing all things tech.
         </p>
         {/* EITHER POPUP OR EMAIL TEMPLATE */}
         <a href="">

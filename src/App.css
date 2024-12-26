@@ -72,6 +72,11 @@ p {
   cursor: pointer;
 }
 
+::selection {
+  color: #fff;
+  background: #375247;
+}
+
 @media (width >= 800px) {
   #root {
     gap: 100px;
