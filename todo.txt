@@ -3,4 +3,5 @@
 - animation opprtunity with css (typing, sliding, fading)
 - reformat to be more similar to note?
 - colors? (background or text or both?)
-- deployment
+- guess how to say my name section?
+- fix about centering for mobile
