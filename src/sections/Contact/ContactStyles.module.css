@@ -25,6 +25,9 @@
   }
 
   .email {
-    background-color: var(--project-card-bg);
+    width: 40px;
+    height: 28px;
+    border-radius: 7px;
   }
 }
+

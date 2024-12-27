@@ -8,18 +8,20 @@ import { useTheme } from '../../common/ThemeContext';
 function Contact() {
   const { theme } = useTheme();
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
-  const emailIcon = theme === 'light' ? emailLight : emailLight;
+  const emailIcon = theme === 'light' ? emailLight : emailDark;
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-      <a href="https://linkedin.com/in/samiahh">
-        <img src={linkedinIcon} alt="linkedin icon" />
-      </a>
-      <p>Connect and/or chat with me on LinkedIn!</p>
-      <a href="mailto:samiah.hossain@dal.ca">
-        <img src={emailIcon} alt="email icon" className={styles.email} />
-      </a>
-      <p>Email me at samiah.hossain@dal.ca.</p>
+      <div className={styles.contactContainer}>
+        <a href="https://linkedin.com/in/samiahh">
+          <img src={linkedinIcon} alt="linkedin icon" />
+        </a>
+        <p>Connect and/or chat with me on LinkedIn!</p>
+        <a href="mailto:samiah.hossain@dal.ca">
+          <img src={emailIcon} alt="email icon" className={styles.email} />
+        </a>
+        <p>Email me at samiah.hossain@dal.ca.</p>
+      </div>
     </section>
   );
 }
