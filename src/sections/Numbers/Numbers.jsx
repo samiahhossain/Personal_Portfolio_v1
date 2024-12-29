@@ -7,7 +7,7 @@ function Numbers() {
       <h1 className="sectionTitle">Numbers</h1>
       <div className={styles.numbersContainer}>
       <NumberCard num="3x" label="Sexton Scholar"/>
-        <NumberCard num="8" label="technical certificates"/>
+        <NumberCard num="8" label="technical certifications"/>
         <NumberCard num="5" label="personal projects"/>
       </div>
     </section>

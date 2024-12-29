@@ -66,18 +66,24 @@
 }
 
 .colorMode:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .description {
-    max-width: 24ch;
-    align-self: center;
+  max-width: 24ch;
+  align-self: center;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pronounce {
+  text-transform: none;
+  font-family: "La Belle Aurore", serif;
+  font-size: 25px;
 }
 
 @media (width >= 800px) {

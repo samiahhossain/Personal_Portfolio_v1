@@ -1,7 +1,5 @@
 - numbers pop up or hidden details?
-- fix/add dark version: hero pic, ellipsis, email icon
-- animation opprtunity with css (typing, sliding, fading)
+- animation opportunity with css/js (typing, sliding, fading) especially with the numbers
 - reformat to be more similar to note?
 - colors? (background or text or both?)
 - guess how to say my name section?
-- fix about centering for mobile

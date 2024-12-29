@@ -34,7 +34,7 @@ function Hero() {
         <h2>Hi there, my name is</h2>
         <h1>
           Samiah
-          <br />
+          <p className={styles.pronounce}>(sa-mee-ya)</p>
           Hossain
         </h1>
         {/* <h2>Tech Lover.</h2> */}
