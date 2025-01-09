@@ -14,8 +14,7 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <p className={styles.label}>
-        Checkmark indicates experience, ellipsis/none indicates learning that is
-        ongoing or planned for the near future.
+        Checkmark indicates experience and proficiency, ellipsis indicates ongoing learning.
       </p>
       <hr />
       <div className={styles.skillList}>

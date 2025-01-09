@@ -2,3 +2,4 @@
 - animation opportunity with css/js (typing, sliding, fading) especially with the numbers
 - reformat to be more similar to note: add cursive styling for a header size and add to each section
 - colors? (background or text or both?)
+- scroll to top section, scroll down icon
