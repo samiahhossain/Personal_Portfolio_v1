@@ -1,5 +1,4 @@
 - numbers pop up or hidden details?
 - animation opportunity with css/js (typing, sliding, fading) especially with the numbers
-- reformat to be more similar to note?
+- reformat to be more similar to note: add cursive styling for a header size and add to each section
 - colors? (background or text or both?)
-- guess how to say my name section?

@@ -25,12 +25,13 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={ellipsisIcon} skill="C" />
+        <SkillList src={ellipsisIcon} skill="C#" />
         <SkillList src={ellipsisIcon} skill="SQL" />
         <SkillList src={ellipsisIcon} skill="PHP" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
+        <SkillList src={ellipsisIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="React Native" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="Node" />
@@ -43,10 +44,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="JetBrains" />
         <SkillList src={checkMarkIcon} skill="VSCode" />
+        <SkillList src={ellipsisIcon} skill="Unity" />
         <SkillList src={ellipsisIcon} skill="Kali Linux" />
         <SkillList src={ellipsisIcon} skill="Metasploit" />
         <SkillList src={ellipsisIcon} skill="Wireshark" />
-        <SkillList src={ellipsisIcon} skill="Splunk" />
         {/* <SkillList src={ellipsisLight} skill="Palo Alto" /> */}
       </div>
       <hr />
