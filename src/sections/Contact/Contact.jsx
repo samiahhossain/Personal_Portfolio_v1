@@ -17,10 +17,10 @@ function Contact() {
           <img src={linkedinIcon} alt="linkedin icon" />
         </a>
         <p>Connect and/or chat with me on LinkedIn!</p>
-        <a href="mailto:samiah.hossain@dal.ca">
+        <a href="mailto:samiah@dal.ca">
           <img src={emailIcon} alt="email icon" className={styles.email} />
         </a>
-        <p>Email me at samiah.hossain@dal.ca.</p>
+        <p>Email me at samiah@dal.ca.</p>
       </div>
     </section>
   );
