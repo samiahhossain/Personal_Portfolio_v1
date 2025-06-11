@@ -6,9 +6,9 @@ function Numbers() {
     <section id="numbers" className={styles.container}>
       <h1 className="sectionTitle">Numbers</h1>
       <div className={styles.numbersContainer}>
-      <NumberCard num="3x" label="Sexton Scholar"/>
-        <NumberCard num="8" label="technical certifications"/>
-        <NumberCard num="5" label="personal projects"/>
+      <NumberCard num="4x" label="Sexton Scholar"/>
+        <NumberCard num="10" label="technical certifications"/>
+        <NumberCard num="7" label="personal projects"/>
         <NumberCard num="4" label="past employers"/>
       </div>
     </section>
