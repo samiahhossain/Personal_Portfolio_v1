@@ -23,10 +23,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={ellipsisIcon} skill="C" />
-        <SkillList src={ellipsisIcon} skill="C#" />
-        <SkillList src={ellipsisIcon} skill="SQL" />
-        <SkillList src={ellipsisIcon} skill="PHP" />
+        <SkillList src={checkMarkIcon} skill="C" />
+        <SkillList src={checkMarkIcon} skill="C#" />
+        <SkillList src={checkMarkIcon} skill="SQL" />
+        <SkillList src={checkMarkIcon} skill="PHP" />
       </div>
       <hr />
       <div className={styles.skillList}>

@@ -9,7 +9,7 @@ function Numbers() {
       <NumberCard num="4x" label="Sexton Scholar"/>
         <NumberCard num="10" label="technical certifications"/>
         <NumberCard num="7" label="personal projects"/>
-        <NumberCard num="4" label="past employers"/>
+        <NumberCard num="6" label="past employers"/>
       </div>
     </section>
   );
